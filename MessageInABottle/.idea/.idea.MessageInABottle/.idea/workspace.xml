@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fd78dd0-6fc9-4b4a-8b2c-e4c3b4e6aaa8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Materials/example-water-01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Materials/example-water-01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraBoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CameraBoom.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WaterTilt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WaterTilt.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +39,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaterTilt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WaterFloatOnChildren.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraBoom.cs" root0="FORCE_HIGHLIGHTING" />
@@ -41,9 +48,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/CameraBoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaterTilt.cs" />
+        <option value="$PROJECT_DIR$/Assets/WaterFloatOnChildren.cs" />
+        <option value="$PROJECT_DIR$/Assets/CameraBoom.cs" />
       </list>
     </option>
   </component>
@@ -83,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611951115622</updated>
-      <workItem from="1611951156566" duration="2767000" />
+      <workItem from="1611951156566" duration="7218000" />
     </task>
     <servers />
   </component>

@@ -10,6 +10,8 @@ public class WaterTilt : MonoBehaviour
 
     [SerializeField] private float followWaterDistance;
 
+    [SerializeField] private MeshFilter meshFilter;
+
     private bool hittingWater;
     // Start is called before the first frame update
     void Start()
@@ -27,7 +29,8 @@ public class WaterTilt : MonoBehaviour
             hittingWater = true;
             Debug.Log(hit.transform.name);
             
-            Debug.DrawRay(hit.transform.position, hit.normal, Color.cyan, 0.01f);
+            // get normal from face of mesh
+            Debug.DrawRay(hit.transform.position, hit.normal, Color.cyan);
         }
         else hittingWater = false;
     }
