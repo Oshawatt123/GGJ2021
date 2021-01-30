@@ -20,12 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fd78dd0-6fc9-4b4a-8b2c-e4c3b4e6aaa8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tentacle/Materials/HIGH_POLY_lambert1_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Tentacle/Materials/HIGH_POLY_lambert1_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Materials/OurWater.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Materials/OurWater.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Materials/example-water-01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Materials/example-water-01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Materials/example-water-02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Materials/example-water-02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Shaders/WaterVolume-URP.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Shaders/WaterVolume-URP.shadergraph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Sunset.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Sunset.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bottle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bottle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weather.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weather.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/WeatherManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WeatherManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611951115622</updated>
       <workItem from="1611951156566" duration="7896000" />
-      <workItem from="1612007210444" duration="6578000" />
+      <workItem from="1612007210444" duration="10413000" />
     </task>
     <servers />
   </component>

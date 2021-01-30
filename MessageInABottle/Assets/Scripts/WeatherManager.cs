@@ -15,13 +15,17 @@ public class WeatherManager : MonoBehaviour
         RenderSettings.skybox.SetFloat("_Exposure", 1.0f);
         
         currentWeather = weathers[0];
-        SwitchWeather(1);
+
+        SwitchWeather(0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            SwitchWeather(1);
+        }
     }
 
     public void SwitchWeather(int newWeather)
