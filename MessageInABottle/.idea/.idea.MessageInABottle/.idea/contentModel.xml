@@ -61,13 +61,15 @@
           <e p="CameraBoom.cs" t="Include" />
           <e p="EventManager.cs" t="Include" />
           <e p="Events" t="Include">
+            <e p="LightningEvent.cs" t="Include" />
             <e p="SeagullEvent.cs" t="Include" />
             <e p="SharkEvent.cs" t="Include" />
-            <e p="StormEvent.cs" t="Include" />
+            <e p="TentacionEvent.cs" t="Include" />
           </e>
           <e p="GameEvent.cs" t="Include" />
           <e p="sanityScript.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
+          <e p="Tentacle.cs" t="Include" />
           <e p="WaterFloatOnChildren.cs" t="Include" />
           <e p="WaterTilt.cs" t="Include" />
           <e p="Weather.cs" t="Include" />

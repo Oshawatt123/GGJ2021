@@ -30,7 +30,7 @@ public class WaterFloatOnChildren : MonoBehaviour
         float xDistance = children[1].position.x - children[0].position.x;
 
         float Z = Mathf.Atan2(yDistance , xDistance) * 15;
-        Debug.Log(yDistance + "/" + xDistance + "=" + Z);
+        //Debug.Log(yDistance + "/" + xDistance + "=" + Z);
 
         return Z;
     }
@@ -41,7 +41,7 @@ public class WaterFloatOnChildren : MonoBehaviour
         float zDistance = children[1].position.z - children[0].position.z;
 
         float X = Mathf.Atan2(yDistance , zDistance) * -15;
-        Debug.Log(yDistance + "/" + zDistance + "=" + X);
+        //Debug.Log(yDistance + "/" + zDistance + "=" + X);
 
         return X;
     }

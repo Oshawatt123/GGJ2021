@@ -22,10 +22,6 @@ public class WeatherManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            SwitchWeather(1);
-        }
     }
 
     public void SwitchWeather(int newWeather)

@@ -23,7 +23,13 @@ public class GameEvent : MonoBehaviour
 
     public virtual void SpawnEvent(BottleEvent eventTrigger)
     {
+        Debug.Log("Event " + transform.name + " spawned");
         trigger = eventTrigger;
+        transform.position = spawnPoint.position;
+    }
+
+    public void FollowSpawn()
+    {
         transform.position = spawnPoint.position;
     }
 }
