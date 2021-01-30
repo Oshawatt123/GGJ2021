@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class GameEvent : MonoBehaviour
 {
-    public BottleEvent trigger;
+    [HideInInspector] public BottleEvent trigger;
+    
+    [SerializeField] private Transform spawnPoint;
     
     // Start is called before the first frame update
     void Start()
@@ -22,5 +24,6 @@ public class GameEvent : MonoBehaviour
     public virtual void SpawnEvent(BottleEvent eventTrigger)
     {
         trigger = eventTrigger;
+        transform.position = spawnPoint.position;
     }
 }
