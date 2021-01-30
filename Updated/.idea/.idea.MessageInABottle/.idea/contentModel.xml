@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Lewis Arnold\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Lewis Arnold\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_MessageInABottle.991945069.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub Tings\GGJ2021\MessageInABottle" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Bitgem" t="Include">
+          <e p="StylisedWater" t="Include">
+            <e p="URP" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Bitgem" t="Include">
+                  <e p="Core" t="Include">
+                    <e p="FlagEnumAttribute.cs" t="Include" />
+                  </e>
+                  <e p="Editor" t="Include">
+                    <e p="FlagEnumAttributeDrawer.cs" t="Include" />
+                  </e>
+                  <e p="VFX" t="Include">
+                    <e p="StylisedWater" t="Include">
+                      <e p="WaterVolumeBase.cs" t="Include" />
+                      <e p="WaterVolumeBox.cs" t="Include" />
+                      <e p="WaterVolumeHelper.cs" t="Include" />
+                      <e p="WaterVolumeTransforms.cs" t="Include" />
+                      <e p="WateverVolumeFloater.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Fantasy Skybox FREE" t="Include">
+          <e p="Readme.txt" t="Include" />
+        </e>
+        <e p="LightningBolt" t="Include">
+          <e p="Editor" t="Include">
+            <e p="LightningBoltEditor.cs" t="Include" />
+          </e>
+          <e p="LightningBoltScript.cs" t="Include" />
+          <e p="Readme.txt" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="BottleEvent.cs" t="Include" />
+          <e p="CameraBoom.cs" t="Include" />
+          <e p="EventManager.cs" t="Include" />
+          <e p="SimpleCameraController.cs" t="Include" />
+          <e p="WaterFloatOnChildren.cs" t="Include" />
+          <e p="WaterTilt.cs" t="Include" />
+          <e p="Weather.cs" t="Include" />
+          <e p="WeatherManager.cs" t="Include" />
+        </e>
+      </e>
+      <e p="MessageInABottle.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
