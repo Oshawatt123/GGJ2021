@@ -27,4 +27,9 @@ public class BottleEvent : MonoBehaviour
     {
         throw new NotImplementedException();
     }
+
+    public void StartEvent()
+    {
+        transform.position = EventManager.Instance().EventSpawnPoint.position;
+    }
 }
