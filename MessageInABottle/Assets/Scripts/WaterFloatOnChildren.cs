@@ -7,6 +7,7 @@ public class WaterFloatOnChildren : MonoBehaviour
 {
     [SerializeField] private List<Transform> children;
     [SerializeField] private float offsetY;
+    [SerializeField] private float bobSize;
     
     // Start is called before the first frame update
     void Start()
@@ -17,7 +18,9 @@ public class WaterFloatOnChildren : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(transform.position.x, ((children[0].position.y + children[1].position.y) / 2) + offsetY, transform.position.z);
+        float _offsetY = offsetY + (Mathf.Sin(Time.time) * bobSize);
+        
+        transform.position = new Vector3(transform.position.x, ((children[0].position.y + children[1].position.y) / 2) + _offsetY, transform.position.z);
         transform.rotation = Quaternion.Euler(GetX(), 0, GetZ());
     }
 

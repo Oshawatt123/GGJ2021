@@ -16,6 +16,7 @@ MonoBehaviour:
   - {fileID: 4478912119574912029}
   - {fileID: 4478912119337719617}
   offsetY: 0.5
+  bobSize: 0
 --- !u!1 &4478912119258623446
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +195,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4478912119337719618}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -301,7 +302,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4478912119574912030}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -499,6 +500,7 @@ MonoBehaviour:
   - {fileID: 4478912119574912029}
   - {fileID: 4478912119337719617}
   offsetY: 0.5
+  bobSize: 0
 --- !u!1 &4478912120659157389
 GameObject:
   m_ObjectHideFlags: 0
