@@ -32,6 +32,9 @@
             </e>
           </e>
         </e>
+        <e p="Fantasy Skybox FREE" t="Include">
+          <e p="Readme.txt" t="Include" />
+        </e>
         <e p="LightningBolt" t="Include">
           <e p="Editor" t="Include">
             <e p="LightningBoltEditor.cs" t="Include" />
