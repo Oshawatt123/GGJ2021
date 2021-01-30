@@ -20,12 +20,12 @@ public class BottleEvent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Translate(new Vector3(0, 0, -1*Time.deltaTime));
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
-        throw new NotImplementedException();
+        startEvents.Invoke();
     }
 
     public void Spawn()

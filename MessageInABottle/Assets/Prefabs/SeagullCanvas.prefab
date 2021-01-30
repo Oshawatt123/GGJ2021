@@ -516,6 +516,7 @@ GameObject:
   - component: {fileID: 3929721898108821944}
   - component: {fileID: 3929721898108821947}
   - component: {fileID: 3929721898108821946}
+  - component: {fileID: 5459824744448179349}
   m_Layer: 5
   m_Name: SeagullCanvas
   m_TagString: Untagged
@@ -604,3 +605,15 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!225 &5459824744448179349
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3929721898108821941}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
