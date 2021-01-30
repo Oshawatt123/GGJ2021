@@ -22,16 +22,12 @@
     <list default="true" id="7fd78dd0-6fc9-4b4a-8b2c-e4c3b4e6aaa8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Lamp/Materials/LOW_POLY_lambert1_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Lamp/Materials/LOW_POLY_lambert1_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Materials/SceneWater.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Materials/SceneWater.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Sunset.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Sunset.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GAME MANAGER.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GAME MANAGER.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/SeagullEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/SeagullEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/StormEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/StormEvent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WaterFloatOnChildren.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WaterFloatOnChildren.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WeatherManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WeatherManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/TentacionEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/TentacionEvent.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weather.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaterFloatOnChildren.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UrbanLizard-Lethe/Agars-Island/Assets/Scripts/UI/ChangeGenText.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/SharkEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeHelper.cs" root0="FORCE_HIGHLIGHTING" />
@@ -60,6 +57,7 @@
     <setting file="file://$PROJECT_DIR$/../../UrbanLizard-Lethe/Agars-Island/Assets/Scripts/TutorialManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LightningControl.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -79,8 +77,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WeatherManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tentacle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Events/TentacionEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/TentacionEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/LightningControl.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611951115622</updated>
       <workItem from="1611951156566" duration="7896000" />
-      <workItem from="1612007210444" duration="26847000" />
+      <workItem from="1612007210444" duration="30372000" />
     </task>
     <servers />
   </component>

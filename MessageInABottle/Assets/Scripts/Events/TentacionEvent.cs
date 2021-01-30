@@ -11,7 +11,7 @@ public class TentacionEvent : GameEvent
 
     private float timer;
 
-    private List<Tentacle> tentacles;
+    private List<Tentacle> tentacles = new List<Tentacle>();
     private int completed;
     
     // Start is called before the first frame update

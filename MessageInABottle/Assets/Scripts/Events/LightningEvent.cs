@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lightning : GameEvent
+public class LightningEvent : GameEvent
 {
     private int hits;
 
@@ -51,6 +51,8 @@ public class Lightning : GameEvent
         startTimer = true;
         timer = timeToKill;
         base.SpawnEvent(eventTrigger);
+
+        transform.GetChild(0).gameObject.SetActive(true);
     }
 
     private void OnMouseUpAsButton()
