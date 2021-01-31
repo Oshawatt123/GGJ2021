@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fd78dd0-6fc9-4b4a-8b2c-e4c3b4e6aaa8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Day.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Day.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bottle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bottle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Events/XXX_Tentaclion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Events/XXX_Tentaclion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Events/LightningRoot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Events/LightningRoot.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tentacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tentacle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weather.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weather.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +70,8 @@
         <option value="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs" />
         <option value="$PROJECT_DIR$/Assets/LightningControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/SharkEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Events/TentacionEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/NarrativeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/TimeBarController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayNoiseRandom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/SeagullEvent.cs" />
@@ -89,6 +82,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Weather.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tentacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/TentacionEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" />
       </list>
     </option>
   </component>
@@ -130,7 +125,7 @@
       <updated>1611951115622</updated>
       <workItem from="1611951156566" duration="7896000" />
       <workItem from="1612007210444" duration="33005000" />
-      <workItem from="1612086932097" duration="13168000" />
+      <workItem from="1612086932097" duration="13764000" />
     </task>
     <servers />
   </component>

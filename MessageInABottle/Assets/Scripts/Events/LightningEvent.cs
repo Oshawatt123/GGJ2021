@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LightningEvent : GameEvent
 {
@@ -16,6 +17,9 @@ public class LightningEvent : GameEvent
     private float timer;
 
     private TimeBarController tbc;
+
+    [SerializeField] private Slider health1;
+    [SerializeField] private Slider health2;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +36,9 @@ public class LightningEvent : GameEvent
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 hits++;
+                
+                health1.value = (hitsToKill-hits)/(float)hitsToKill;
+                health2.value = (hitsToKill-hits)/(float)hitsToKill;
 
                 if (hits > hitsToKill)
                 {
