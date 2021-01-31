@@ -26,11 +26,11 @@ public class Weather : MonoBehaviour
 
     private AudioSource ambient;
 
-    // Start is called before the first frame update
-    void Start()
+    // Awake is called before start
+    void Awake()
     {
         ambient = GetComponent<AudioSource>();
-        Debug.Log("Got ambient");
+        Debug.Log("Got ambient in " + ambient.gameObject.name);
     }
 
     // Update is called once per frame
