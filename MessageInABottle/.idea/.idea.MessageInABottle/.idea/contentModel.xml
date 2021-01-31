@@ -76,7 +76,7 @@
         </e>
         <e p="Scenes" t="Include">
           <e p="Menu" t="Include">
-            <e p="Lightning.cs" t="Include" />
+            <e p="LightFlickerEffect.cs" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">

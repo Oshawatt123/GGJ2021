@@ -15,9 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/VictoryScene.unity
     guid: f548a85632287504ab1f875133396b6c
   - enabled: 1
-    path: Assets/Scenes/BlownAway.unity
-    guid: 382ce4d2171959943bcb42f04dd67e61
-  - enabled: 1
     path: Assets/Scenes/UnderWater.unity
     guid: af4d7c6f51b974d478852ff1763b5e33
+  - enabled: 0
+    path: Assets/Scenes/BlownAway.unity
+    guid: 382ce4d2171959943bcb42f04dd67e61
   m_configObjects: {}
