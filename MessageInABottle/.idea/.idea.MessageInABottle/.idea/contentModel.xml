@@ -49,6 +49,7 @@
           <e p="LightningBoltScript.cs" t="Include" />
           <e p="Readme.txt" t="Include" />
         </e>
+        <e p="PlaySoundOnTrigger.cs" t="Include" />
         <e p="Polydactyl" t="Include">
           <e p="Animals" t="Include">
             <e p="Birds" t="Include">

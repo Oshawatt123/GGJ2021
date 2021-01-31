@@ -45,7 +45,7 @@ public class NarrativeManager : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             screenText.color = new Color(1, 1, 1, Mathf.Lerp(1, 0, (elapsedTime / fadeTime)));
-            Debug.Log("Fading out " + (elapsedTime / fadeTime).ToString());
+            //Debug.Log("Fading out " + (elapsedTime / fadeTime).ToString());
             yield return new WaitForEndOfFrame();
         }
         
@@ -56,7 +56,7 @@ public class NarrativeManager : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             screenText.color = new Color(1, 1, 1, Mathf.Lerp(0, 1, Mathf.Clamp01(elapsedTime / fadeTime)));
-            Debug.Log("Fading in " + Mathf.Clamp01(elapsedTime / fadeTime).ToString());
+            //Debug.Log("Fading in " + Mathf.Clamp01(elapsedTime / fadeTime).ToString());
             yield return new WaitForEndOfFrame();
         }
 
