@@ -17,6 +17,8 @@ public class BottleEvent : MonoBehaviour
 
     [SerializeField] private bool firstTimer;
 
+    [SerializeField] private float fogDensity;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +42,8 @@ public class BottleEvent : MonoBehaviour
     {
         // start the narrative manager
         nm.StartNarrative(narratives);
+
+        RenderSettings.fogDensity = fogDensity;
         
         try
         {
