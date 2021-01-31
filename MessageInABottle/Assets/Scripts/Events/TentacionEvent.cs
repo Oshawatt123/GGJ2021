@@ -13,11 +13,12 @@ public class TentacionEvent : GameEvent
 
     private List<Tentacle> tentacles = new List<Tentacle>();
     private int completed;
-    
+
+    private TimeBarController tbc;
     // Start is called before the first frame update
     void Start()
     {
-        
+        tbc = GameObject.FindWithTag("Player").GetComponent<TimeBarController>();
     }
 
     // Update is called once per frame
@@ -25,13 +26,14 @@ public class TentacionEvent : GameEvent
     {
         if (startTimer)
         {
-            
+            tbc.SetTimerValue(timer / timeToKill);
             timer -= Time.deltaTime;
 
             if (timer <= 0)
             {
                 trigger.Fail();
                 startTimer = false;
+                tbc.ShowTimer(0);
             }
         }
     }
@@ -41,6 +43,7 @@ public class TentacionEvent : GameEvent
         startTimer = true;
         timer = timeToKill;
         base.SpawnEvent(eventTrigger);
+        tbc.ShowTimer(1);
     }
 
     public void Subscribe(Tentacle tentacle)
@@ -56,6 +59,7 @@ public class TentacionEvent : GameEvent
         {
             trigger.Pass();
             startTimer = false;
+            tbc.ShowTimer(0);
         }
     }
 }

@@ -22,11 +22,14 @@
     <list default="true" id="7fd78dd0-6fc9-4b4a-8b2c-e4c3b4e6aaa8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Lamp/Materials/LOW_POLY_lambert1_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Lamp/Materials/LOW_POLY_lambert1_Normal.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Materials/SceneWater.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Materials/SceneWater.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Sunset.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Sunset.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bottle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bottle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Events/SharkRoot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Events/SharkRoot.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BottleEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BottleEvent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/SharkEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/SharkEvent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/TentacionEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/TentacionEvent.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +58,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BottleEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UrbanLizard-Lethe/Agars-Island/Assets/Scripts/TutorialManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TimeBarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LightningControl.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,11 +70,9 @@
         <option value="$PROJECT_DIR$/Assets/WaterFloatOnChildren.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraBoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weather.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BottleEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/SeagullEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/SharkEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Events/SharkEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaterFloatOnChildren.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/SeagullEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/StormEvent.cs" />
@@ -78,9 +80,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Tentacle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Events/TentacionEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/LightningControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/TimeBarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BottleEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/TentacionEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/SharkEvent.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611951115622</updated>
       <workItem from="1611951156566" duration="7896000" />
-      <workItem from="1612007210444" duration="30372000" />
+      <workItem from="1612007210444" duration="32976000" />
     </task>
     <servers />
   </component>

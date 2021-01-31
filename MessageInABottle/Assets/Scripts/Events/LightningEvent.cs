@@ -14,10 +14,12 @@ public class LightningEvent : GameEvent
     private bool startTimer;
 
     private float timer;
+
+    private TimeBarController tbc;
     // Start is called before the first frame update
     void Start()
     {
-        
+        tbc = GameObject.FindWithTag("Player").GetComponent<TimeBarController>();
     }
 
     // Update is called once per frame
@@ -25,6 +27,8 @@ public class LightningEvent : GameEvent
     {
         if (startTimer)
         {
+            tbc.SetTimerValue(timer / timeToKill);
+            
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 hits++;
@@ -34,6 +38,7 @@ public class LightningEvent : GameEvent
                     transform.position = new Vector3(0, -10, 0);
                     trigger.Pass();
                     startTimer = false;
+                    tbc.ShowTimer(0);
                 }
             }
 
@@ -42,6 +47,8 @@ public class LightningEvent : GameEvent
             if (timer <= 0)
             {
                 trigger.Fail();
+                startTimer = false;
+                tbc.ShowTimer(0);
             }
         }
     }
@@ -51,6 +58,8 @@ public class LightningEvent : GameEvent
         startTimer = true;
         timer = timeToKill;
         base.SpawnEvent(eventTrigger);
+
+        tbc.ShowTimer(1);
 
         transform.GetChild(0).gameObject.SetActive(true);
     }

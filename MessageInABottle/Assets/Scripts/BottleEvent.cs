@@ -30,7 +30,17 @@ public class BottleEvent : MonoBehaviour
 
     public void Spawn()
     {
-        transform.position = EventManager.Instance().EventSpawnPoint.position;
+        try
+        {
+            transform.position = EventManager.Instance().EventSpawnPoint.position;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            Debug.LogError("Object " + gameObject.name + " failed to get event manager instance");
+            throw;
+        }
+        
     }
 
     public void Pass()

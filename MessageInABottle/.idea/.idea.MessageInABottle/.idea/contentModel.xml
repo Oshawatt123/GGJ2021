@@ -44,6 +44,17 @@
           <e p="Readme.txt" t="Include" />
         </e>
         <e p="LightningControl.cs" t="Include" />
+        <e p="Polydactyl" t="Include">
+          <e p="Animals" t="Include">
+            <e p="Birds" t="Include">
+              <e p="Lowpoly Toon Seagull" t="Include">
+                <e p="Demo" t="Include">
+                  <e p="Seagull_Demo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="RealSnowAndRain" t="Include">
           <e p="Editor" t="Include">
             <e p="RequiredLayers.cs" t="Include" />
@@ -112,6 +123,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="TimeBarController.cs" t="Include" />
       </e>
       <e p="MessageInABottle.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
