@@ -76,7 +76,7 @@ Material:
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
-    - _Glossiness: 0.30394065
+    - _Glossiness: 0.3
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
@@ -87,9 +87,9 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _WaveFrequency: 0.20670746
-    - _WaveScale: 0.873041
-    - _WaveSpeed: 0.7918586
+    - _WaveFrequency: 0.2
+    - _WaveScale: 0.88
+    - _WaveSpeed: 0.5
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
