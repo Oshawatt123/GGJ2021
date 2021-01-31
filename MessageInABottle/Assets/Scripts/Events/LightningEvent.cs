@@ -39,6 +39,7 @@ public class LightningEvent : GameEvent
                     trigger.Pass();
                     startTimer = false;
                     tbc.ShowTimer(0);
+                    transform.GetChild(0).gameObject.SetActive(false);
                 }
             }
 

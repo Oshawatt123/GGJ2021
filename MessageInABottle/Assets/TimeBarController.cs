@@ -8,11 +8,11 @@ public class TimeBarController : MonoBehaviour
     [SerializeField] private Slider sliderA;
     [SerializeField] private Slider sliderB;
 
-    private CanvasGroup cg;
+    [SerializeField] private CanvasGroup cg;
     // Start is called before the first frame update
     void Start()
     {
-        cg = GetComponentInChildren<CanvasGroup>();
+        
     }
 
     // Update is called once per frame

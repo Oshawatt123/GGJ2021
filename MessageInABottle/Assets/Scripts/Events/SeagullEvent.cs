@@ -7,11 +7,16 @@ using UnityEngine;
 public class SeagullEvent : GameEvent
 {
     [SerializeField] private CanvasGroup cg;
+
+    private Animator anim;
+
+    [SerializeField] private List<Animator> seagulls;
     
     // Start is called before the first frame update
     void Start()
     {
-        Reset();
+        StartCoroutine(Reset());
+        anim = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -22,6 +27,7 @@ public class SeagullEvent : GameEvent
 
     public override void SpawnEvent(BottleEvent eventTrigger)
     {
+        Debug.Log(eventTrigger.gameObject.name);
         base.SpawnEvent(eventTrigger);
         Setup();
     }
@@ -33,8 +39,9 @@ public class SeagullEvent : GameEvent
         cg.interactable = true;
     }
 
-    private void Reset()
+    private IEnumerator Reset(float wait = 0f)
     {
+        yield return new WaitForSeconds(wait);
         cg.alpha = Mathf.Lerp(1, 0, 1f);
         cg.blocksRaycasts = false;
         cg.interactable = false;
@@ -43,15 +50,20 @@ public class SeagullEvent : GameEvent
 
     public void Pass()
     {
+        if(anim)  anim.SetTrigger("BlowAway");
+        
         trigger.Pass();
-
-        Reset();
+        StartCoroutine(Reset(1f));
     }
 
     public void Fail()
     {
+        foreach (Animator seagull in seagulls)
+        {
+            seagull.SetTrigger("Die");
+        }
         trigger.Fail();
-        
-        Reset();
+
+        StartCoroutine(Reset(1.16f));
     }
 }

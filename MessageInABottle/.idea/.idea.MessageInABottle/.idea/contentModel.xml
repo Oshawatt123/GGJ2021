@@ -45,6 +45,7 @@
         </e>
         <e p="LightningControl.cs" t="Include" />
         <e p="NarrativeManager.cs" t="Include" />
+        <e p="PlayNoiseRandom.cs" t="Include" />
         <e p="Polydactyl" t="Include">
           <e p="Animals" t="Include">
             <e p="Birds" t="Include">
@@ -87,11 +88,13 @@
           <e p="GameEvent.cs" t="Include" />
           <e p="sanityScript.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
+          <e p="StormEvent.cs" t="Include" />
           <e p="Tentacle.cs" t="Include" />
           <e p="WaterFloatOnChildren.cs" t="Include" />
           <e p="WaterTilt.cs" t="Include" />
           <e p="Weather.cs" t="Include" />
           <e p="WeatherManager.cs" t="Include" />
+          <e p="WindEvent.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">

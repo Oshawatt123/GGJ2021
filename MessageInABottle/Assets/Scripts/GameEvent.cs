@@ -23,8 +23,9 @@ public class GameEvent : MonoBehaviour
 
     public virtual void SpawnEvent(BottleEvent eventTrigger)
     {
-        Debug.Log("Event " + transform.name + " spawned");
+        Debug.Log("Event " + transform.name + " spawned from " + eventTrigger.gameObject.name);
         trigger = eventTrigger;
+        Debug.Log(trigger.gameObject.name);
         transform.position = spawnPoint.position;
     }
 
