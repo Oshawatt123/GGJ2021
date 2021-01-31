@@ -35,7 +35,13 @@
         <e p="Fantasy Skybox FREE" t="Include">
           <e p="Readme.txt" t="Include" />
         </e>
-        <e p="GameManager.cs" t="Include" />
+        <e p="Flat Screen Transitions" t="Include">
+          <e p="Read Me.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="FSTDemoManager.cs" t="Include" />
+            <e p="LaunchURL.cs" t="Include" />
+          </e>
+        </e>
         <e p="LightningBolt" t="Include">
           <e p="Editor" t="Include">
             <e p="LightningBoltEditor.cs" t="Include" />
@@ -43,9 +49,6 @@
           <e p="LightningBoltScript.cs" t="Include" />
           <e p="Readme.txt" t="Include" />
         </e>
-        <e p="LightningControl.cs" t="Include" />
-        <e p="NarrativeManager.cs" t="Include" />
-        <e p="PlayNoiseRandom.cs" t="Include" />
         <e p="Polydactyl" t="Include">
           <e p="Animals" t="Include">
             <e p="Birds" t="Include">
@@ -86,10 +89,16 @@
             <e p="TentacionEvent.cs" t="Include" />
           </e>
           <e p="GameEvent.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="LightningControl.cs" t="Include" />
+          <e p="Menu.cs" t="Include" />
+          <e p="NarrativeManager.cs" t="Include" />
+          <e p="PlayNoiseRandom.cs" t="Include" />
           <e p="sanityScript.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="StormEvent.cs" t="Include" />
           <e p="Tentacle.cs" t="Include" />
+          <e p="TimeBarController.cs" t="Include" />
           <e p="WaterFloatOnChildren.cs" t="Include" />
           <e p="WaterTilt.cs" t="Include" />
           <e p="Weather.cs" t="Include" />
@@ -127,7 +136,6 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="TimeBarController.cs" t="Include" />
       </e>
       <e p="MessageInABottle.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

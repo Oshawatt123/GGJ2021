@@ -17,8 +17,6 @@ public class WeatherManager : MonoBehaviour
         currentWeather = weathers[0];
 
         SwitchWeather(0);
-
-        SwitchWeather(2);
     }
 
     // Update is called once per frame

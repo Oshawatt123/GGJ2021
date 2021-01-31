@@ -16,7 +16,7 @@ public class BottleEvent : MonoBehaviour
     private NarrativeManager nm;
 
     [SerializeField] private bool firstTimer;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,7 +43,8 @@ public class BottleEvent : MonoBehaviour
         
         try
         {
-            transform.position = EventManager.Instance().EventSpawnPoint.position;
+            Vector3 EMPos = EventManager.Instance().EventSpawnPoint.position;
+            transform.position = new Vector3(EMPos.x, EMPos.y, EMPos.z + (narratives.Count * nm.textStayTime));
         }
         catch (Exception e)
         {

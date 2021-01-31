@@ -14,8 +14,8 @@ public class Weather : MonoBehaviour
     public float glossiness;
     public float frequency;
     public Color waterColor;
-    
-    
+
+
     [SerializeField] private MeshRenderer waterMesh;
 
     public GameObject particles;
@@ -24,10 +24,13 @@ public class Weather : MonoBehaviour
 
     [SerializeField] private Light directionalLight;
 
+    private AudioSource ambient;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        ambient = GetComponent<AudioSource>();
+        Debug.Log("Got ambient");
     }
 
     // Update is called once per frame
@@ -71,7 +74,12 @@ public class Weather : MonoBehaviour
                 new Color(Mathf.Lerp(oldColor.r, waterColor.r, Mathf.Clamp01(elapsedTime / time)),
                                 Mathf.Lerp(oldColor.g, waterColor.g, Mathf.Clamp01(elapsedTime / time)),
                                 Mathf.Lerp(oldColor.b, waterColor.b, Mathf.Clamp01(elapsedTime / time))));
-            
+
+            if (fadeIn)
+                ambient.volume = Mathf.Lerp(0, 1, Mathf.Clamp01(elapsedTime / time));
+            else
+                ambient.volume = Mathf.Lerp(1, 0, Mathf.Clamp01(elapsedTime / time));
+
             if (fadeIn && currentExposure > 0.5f) UpdateEnvSettings();
             if (!fadeIn && currentExposure < 0.5f) break;
             
