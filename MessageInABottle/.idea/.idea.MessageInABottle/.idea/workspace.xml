@@ -23,14 +23,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MessageInABottle/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Materials/SceneWater.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bitgem/StylisedWater/URP/Materials/SceneWater.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Sunset.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Sunset.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Rainy.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Rainy.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bottle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bottle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Events/SharkRoot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Events/SharkRoot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu/Fonts/CaviarDreams SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu/Fonts/CaviarDreams SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BottleEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BottleEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/SharkEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/SharkEvent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/TentacionEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/TentacionEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weather.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weather.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weather.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaterFloatOnChildren.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NarrativeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UrbanLizard-Lethe/Agars-Island/Assets/Scripts/UI/ChangeGenText.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/SharkEvent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,7 +69,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WaterTilt.cs" />
         <option value="$PROJECT_DIR$/Assets/WaterFloatOnChildren.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraBoom.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weather.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/SeagullEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/SharkEvent.cs" />
@@ -83,9 +82,11 @@
         <option value="$PROJECT_DIR$/Assets/LightningControl.cs" />
         <option value="$PROJECT_DIR$/Assets/TimeBarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/LightningEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BottleEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Events/TentacionEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/SharkEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weather.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/TentacionEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BottleEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/NarrativeManager.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +127,8 @@
       <option name="presentableId" value="Default" />
       <updated>1611951115622</updated>
       <workItem from="1611951156566" duration="7896000" />
-      <workItem from="1612007210444" duration="32976000" />
+      <workItem from="1612007210444" duration="33005000" />
+      <workItem from="1612086932097" duration="3411000" />
     </task>
     <servers />
   </component>
@@ -146,5 +148,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="459" y="227" key="search.everywhere.popup" timestamp="1612087988233">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="459" y="227" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612087988233" />
   </component>
 </project>

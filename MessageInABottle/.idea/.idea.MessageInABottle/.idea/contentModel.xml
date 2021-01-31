@@ -44,6 +44,7 @@
           <e p="Readme.txt" t="Include" />
         </e>
         <e p="LightningControl.cs" t="Include" />
+        <e p="NarrativeManager.cs" t="Include" />
         <e p="Polydactyl" t="Include">
           <e p="Animals" t="Include">
             <e p="Birds" t="Include">

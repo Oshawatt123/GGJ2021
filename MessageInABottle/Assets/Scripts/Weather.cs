@@ -13,11 +13,12 @@ public class Weather : MonoBehaviour
     public float waveSpeed;
     public float glossiness;
     public float frequency;
+    public Color waterColor;
     
     
     [SerializeField] private MeshRenderer waterMesh;
 
-    public ParticleSystem particles;
+    public GameObject particles;
 
     public Color lightColor;
 
@@ -54,6 +55,7 @@ public class Weather : MonoBehaviour
         float oldScale = waterMat.GetFloat("_WaveScale");
         float oldSpeed = waterMat.GetFloat("_WaveSpeed");
         float oldFreq = waterMat.GetFloat("_WaveFrequency");
+        Color oldColor = waterMat.GetColor("_DeepColor");
         
         while (elapsedTime < time)
         {
@@ -65,12 +67,22 @@ public class Weather : MonoBehaviour
             waterMat.SetFloat("_WaveSpeed", Mathf.Lerp(oldSpeed, waveSpeed, Mathf.Clamp01(elapsedTime / time)));
             waterMat.SetFloat("_WaveFrequency", Mathf.Lerp(oldFreq, frequency, Mathf.Clamp01(elapsedTime / time)));
             
+            waterMat.SetColor("_DeepColor", 
+                new Color(Mathf.Lerp(oldColor.r, waterColor.r, Mathf.Clamp01(elapsedTime / time)),
+                                Mathf.Lerp(oldColor.g, waterColor.g, Mathf.Clamp01(elapsedTime / time)),
+                                Mathf.Lerp(oldColor.b, waterColor.b, Mathf.Clamp01(elapsedTime / time))));
+            
             if (fadeIn && currentExposure > 0.5f) UpdateEnvSettings();
             if (!fadeIn && currentExposure < 0.5f) break;
             
             skybox.SetFloat("_Exposure", currentExposure);
             yield return new WaitForEndOfFrame();
         }
+
+        if (fadeIn)
+            if(particles) particles.SetActive(true);
+        else
+            if(particles) particles.SetActive(false);
     }
 
     private void UpdateEnvSettings()

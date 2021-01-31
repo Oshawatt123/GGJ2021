@@ -57,7 +57,7 @@ public class TentacionEvent : GameEvent
 
         if (completed >= tentacles.Count)
         {
-            trigger.Pass();
+            //trigger.Pass();
             startTimer = false;
             tbc.ShowTimer(0);
         }

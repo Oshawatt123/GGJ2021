@@ -10,11 +10,19 @@ public class BottleEvent : MonoBehaviour
 
     public UnityEvent passEvent;
     public UnityEvent failEvent;
+
+    public List<string> narratives;
+
+    private NarrativeManager nm;
+
+    [SerializeField] private bool firstTimer;
     
     // Start is called before the first frame update
     void Start()
     {
+        nm = GameObject.FindWithTag("Player").GetComponent<NarrativeManager>();
         
+        if(firstTimer) nm.StartNarrative(narratives);
     }
 
     // Update is called once per frame
@@ -30,6 +38,9 @@ public class BottleEvent : MonoBehaviour
 
     public void Spawn()
     {
+        // start the narrative manager
+        nm.StartNarrative(narratives);
+        
         try
         {
             transform.position = EventManager.Instance().EventSpawnPoint.position;
